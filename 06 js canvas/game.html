@@ -1,0 +1,35 @@
+<head>
+    <title>packman game</title>
+    <link rel="stylesheet" type="text/css" href="style\styles.css">
+    <script type="text/javascript" src="js\jquery-1.11.3.js"></script>
+    <script src="js/obstaclesGenerator.js"></script>
+    
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="gamePlay">
+        <div id="panel_top">
+            <h3>Время</h3>
+            <time class="timer">00:00:00</time>
+        </div>
+        <canvas id="canvas" class="canvas" width="500" height="500">
+            Canvas is not supported on this device
+        </canvas>  
+        <div id="panel_createObstacles" class="panel_createObstacles">
+            <h2 class="description-field">Настройка препятствий</h2>
+            <label>Введите количества препятствий(от 1 до 18): </label><input id="CountObstacles" autofocus type="value" value="16" class="input-button"></input>
+            <label>Максимальное длина блока(от 1 до 5): </label><input id="maxSize" type="value" value="4" class="input-button"></input>
+            <input class="save" type="button" value="Запустить" onclick="readWriteData()"></input>
+        </div>
+
+        <div id="panel_right" >            
+            <input type="button" onclick="start_time()" value="Начать"/>
+            <input type="button" onclick="stop_time()" value="Сбросить"/>
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
+</body>
+
+</html>

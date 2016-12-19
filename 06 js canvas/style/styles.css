@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.canvas{    
+    float: left;
+}
+
+.gamePlay{
+    width: 700px;;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 20px;    
+    float: left;
+}
+#panel_top{
+    margin-bottom: 10px;    
+    margin-left: 80px;
+    vertical-align: middle;
+}
+#panel_top h3{
+    margin-right:15px;
+    float: left;
+}
+
+#panel_right{    
+    border: 2px solid black;    
+    float: left;
+    margin-left: 70px;
+}
+
+#startGame{
+    float: left;
+}
+/*Obstacles Style*/
+.panel_createObstacles{
+    
+    float: left;
+    width: 80px;
+    height: 15px;
+    margin-top: 250px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.input-button{
+    width: 100%;
+    max-height: 25px;
+    font-size: 15px;
+}
+.description-field{
+    font-size: 20px;
+}
+label{
+    font-size:  15px;
+}
+.save{
+    width: 80px; height: 20px;    
+    font-size: 15px;
+}
+/*Obstacles Style*/
